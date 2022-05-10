@@ -161,12 +161,14 @@
                                     <textarea class="input-block-level" name="description" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Description of Machinery or Asset" required></textarea>
                                     <div class="validation"></div>
                                 </div>
-                                <div style="clear: both">
+                                <div style="clear: both"></div>
+                                <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+                                <div class="text-center" style="margin-left: 20px;">
 
+                                    <div id='html_element'></div>
                                 </div>
-
-                                <div class="text-center">
-                                    <button class="btn btn-theme animated btn-large e_tada" type="submit">Send a message</button>
+                                <div class="text-center" style="padding-top: 15px;">
+                                    <button class="btn btn-theme animated btn-large e_tada" type="submit" disabled  id="SubmitButton">Send a message</button>
                                 </div>
                             </div>
                         </form>
@@ -175,6 +177,23 @@
             </div>
     </section>
 
+    <script>
+
+        var onloadCallback = function () {
+            grecaptcha.render('html_element', {
+                'sitekey': '6LfVCvodAAAAAA371p1XIhDTp5ipSszqDom3Dlfv',
+                'callback': correctCaptcha
+            });
+        };
+
+        var correctCaptcha = function (response) {
+            if(response.length !== 0)
+            {
+                var submitButton = document.getElementById("SubmitButton");
+                submitButton.disabled = false;
+            }
+        };
+    </script>
     <?php include_once "footer.php" ?>
 
 </div>

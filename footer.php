@@ -16,7 +16,7 @@
                 <div class="widget">
                     <h5>Partners</h5>
                     <ul class="regular">
-                        <li><a href="http://www.industrialtimesinc.com/">Industrial Times Inc.</a></li>
+                        <!--<li><a href="http://www.industrialtimesinc.com/">Industrial Times Inc.</a></li>-->
                         <li><a href="http://www.midwaymachinerymovers.com/">Midway Machinery Movers</a></li>
                         <li><a href="http://nuteksales.com/">Nu Tek Sales</a></li>
                         <li><a href="http://www.usaindustrialscrap.com/">USA Industrial Scrap</a></li>
@@ -79,6 +79,17 @@
 <script src="assets/js/jquery.flexslider.js"></script>
 <script src="assets/js/jquery-hover-effect.js"></script>
 <script src="assets/js/animate.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 <!-- Template Custom JavaScript File -->
 <script src="assets/js/custom.js"></script>
+
+<!-- Marketing foot trafic for Arionna Thompson -->
+<script type="text/javascript">
+
+    (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,https://diffuser-cdn.app-us1.com/diffuser/diffuser.js,"vgo");
+
+    vgo('setAccount', '27494250');
+    vgo('setTrackByDefault', true);
+    vgo('process');
+</script>

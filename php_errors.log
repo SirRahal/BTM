@@ -39,3 +39,6 @@
 [11-Sep-2021 18:17:29 UTC] PHP Notice:  Undefined index: infile in C:\WebFolder\BTM\assetservicesSend.php on line 31
 [11-Sep-2021 18:17:29 UTC] PHP Notice:  Trying to access array offset on value of type null in C:\WebFolder\BTM\assetservicesSend.php on line 31
 [11-Sep-2021 18:17:29 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\WebFolder\BTM\assetservicesSend.php on line 31
+[25-Jan-2022 03:10:38 UTC] PHP Notice:  Undefined index: title in C:\WebFolder\BTM\PostAuction.php on line 28
+[25-Jan-2022 03:10:38 UTC] PHP Notice:  Undefined index: description in C:\WebFolder\BTM\PostAuction.php on line 29
+[25-Jan-2022 03:10:38 UTC] PHP Notice:  Undefined index: location in C:\WebFolder\BTM\PostAuction.php on line 30
