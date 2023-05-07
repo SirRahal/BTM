@@ -42,6 +42,11 @@ class DBService
     //var $dbname = "carms112_btmauctions";
 
     public function __construct(){
+
+
+        if (!function_exists('mysqli_init') && !extension_loaded('mysqli')) {
+            echo 'Why you no have mysqli!!!';
+        }
         $conn = new mysqli($this->servername, $this->username, $this->password);
 
         // Check connection
